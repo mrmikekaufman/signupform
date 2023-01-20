@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign-Up</title>
+</head>
+<body>
+   <div class="background">
+    <div class="sidebar"><img src="./images/odin-lined.png">ODIN</div>
+    <p>Photo by <a href="https://unsplash.com/@joelvodell?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joel Vodell</a> on <a href="https://unsplash.com/wallpapers/nature/ocean?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+   </div>
+   <div class="signup">
+    <p class="header">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.<br><br> You <em>know</em> you want to.</p>
+    <form>
+        <p>Lets do this!</p>
+        <div class="row">
+            <div class="input">
+                <label for="firstname">FIRST NAME</label>
+                <input type="text" id="firstname" name="firstname" placeholder="John">
+            </div>
+            <div class="input">
+                <label for="lastname">LAST NAME</label>
+                <input type="text" id="name" name="lastname" placeholder="Doe">    
+            </div>
+        </div>
+        <div class="row">
+            <div class="input">
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" name="email" placeholder="youremail@gmail.com">
+            </div>
+            <div class="input">
+                <label for="phonenumber">PHONE NUMBER</label>
+                <input type="text" id="phonenumber" name="phonenumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Please enter a valid phone number, format: 123-456-7890" placeholder="123-456-7890">  
+            </div>
+        </div>
+        <div class="row">
+            <div class="input">
+                <label for="password">PASSWORD</label>
+                <input type="password" id="password" minlength="6" name="password" placeholder="Minimum 6 characters" title="Please enter a valid password" required>
+            </div>
+            <div class="input">
+                <label for="password">CONFIRM PASSWORD</label>
+                <input type="password" id="password" placeholder="Must match password" minlength="6" name="confirmpassword" required>  
+            </div>
+        </div>
+        <button type="submit">Create Account</button>
+    </form>
+    <div class="login">Already have an account? <a href="index.html">Log in</a></div>
+   </div>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    <!-- Photo by <a href="https://unsplash.com/@joelvodell?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joel Vodell</a> on <a href="https://unsplash.com/wallpapers/nature/ocean?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> --> 
+</body>
+</html>
